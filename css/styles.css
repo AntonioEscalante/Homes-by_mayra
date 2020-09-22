@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  text-align: center;
+
+  height: 100%;
+  padding: 0;
+  overflow-x: hidden
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-top: 10px solid black;
+  font-weight: bolder;
+}
+  h3, h4, h5, h6 {font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+color:white;
+}
+h1, h2{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+
+}
+
+.last-container {
+
+  padding: 10px;
+  background-color: #e6f7ff;
+}
+
+.header {
+  background-color: #e6f7ff;
+  width: 100%;
+  padding-bottom: 8px;
+  padding-top: 10px;
+}
+
+.darkhome {
+  width: 100%;
+  height: auto;
+}
+
+/* Bottom left text */
+.bottom-left {
+  color: white;
+
+  position: relative;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: relative;
+  color: white;
+
+}
+
+.top-right {
+  position: absolute;
+  top: 100px;
+  right: 120px;
+
+}
+
+.centered {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+.intro {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size:15px;
+}
+
+.word{
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+.Mayra {
+  position: absolute;
+  left: 16px;
+  padding-top: 0;
+}
+
+ .top-container {
+  background-image: url(../images/beachhome.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+
+}
+
+.text5{
+  position: absolute;
+  font-size:35px;
+  width: 100%;
+  text-align: left;
+  bottom: 100px;
+  left: 35px;
+color: white;
+font-weight: bolder;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.medio-container {
+  background-image: url(../images/homeoffice.jpg);
+  background-size: cover;
+  color: white;
+  background-position: center;
+  height: 700px;
+}
+
+.banner3 {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: bolder;
+}
+.banner {
+  color:white;
+  font-weight: bolder;
+}
+.text3 {
+  position: absolute;
+  top: 350px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+
+
+}
+
+.bottom-container {
+  background-image: url(../images/sold.jpg);
+  background-size: cover;
+
+  height: 700px;
+  background-position: center;
+}
+
+.banner {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: bolder;
+}
+
+.text2 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  right: 200px;
+
+}
+
+.contact-me {
+  width: 25%;
+  margin: 100px auto 100px;
+  position: absolute;
+  left: 400px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: black;
+}
+
+.last-container {
+
+  font-size: 0.75rem;
+  color: grey;
+  padding: 1px;
+  background-position: center;
+}
+
+.btn1 {
+  background: black;
+  background-image: -webkit-linear-gradient(top, black, black);
+  background-image: -moz-linear-gradient(top, black, black);
+  background-image: -ms-linear-gradient(top, black, black);
+  background-image: -o-linear-gradient(top, black, black);
+  background-image: linear-gradient(to bottom, black, black);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+
+  color: white;
+  font-size: 20px;
+  padding: 3px 20px 3px 20px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3cb0fd);
+}
+
+.btn {
+  position: fixed;
+  right: 70px;
+  top: 90px;
+  background: black;
+  background-image: -webkit-linear-gradient(top, black, black);
+  background-image: -moz-linear-gradient(top, black, black);
+  background-image: -ms-linear-gradient(top, black, black);
+  background-image: -o-linear-gradient(top, black, black);
+  background-image: linear-gradient(to bottom, black, black);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3cb0fd);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3cb0fd);
+}
+
+.Copyright {
+  color: grey;
+}
+
+.very-last-container {
+  background-image: url(../images/map.png);
+  background-size: cover;
+}
+
+.text1 {
+  position: absolute;
+  top: 450px;
+  width: 100%;
+  text-align: right;
+  font-weight: bolder;
+
+}
+.banner {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  font-weight: bolder;
+
+  }
