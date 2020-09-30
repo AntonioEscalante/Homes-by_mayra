@@ -98,7 +98,7 @@ h1, h2{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helve
 }
 
  .top-container {
-  background-image: url(../images/beachhomes.jpg);
+  background-image: url(../images/beachhome.jpg);
   background-size: cover;
   background-position: center;
   height: 700px;
@@ -119,7 +119,7 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica N
 }
 
 .medio-container {
-  background-image: url(../images/officep.jpg);
+  background-image: url(../images/homeoffice.jpg);
   background-size: cover;
   color: white;
   background-position: center;
