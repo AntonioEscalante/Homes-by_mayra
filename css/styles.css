@@ -224,7 +224,7 @@ a:hover {
 }
 
 .btn {
-  position: fixed;
+  position: absolute;
   right: 70px;
   top: 90px;
   background: black;
