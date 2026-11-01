@@ -11,16 +11,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://redfin.com" crossorigin>
   <link href="https://googleapis.com" rel="stylesheet">
+  
+  <style>
+    /* Prevent images from breaking layout on smaller screens */
+    .Mayra {
+      border-radius: 50%; /* Makes the profile photo a clean circle */
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    .social-icon {
+      transition: transform 0.2s ease;
+    }
+    
+    .social-icon:hover {
+      transform: scale(1.15); /* Adds a crisp zoom effect on hover */
+    }
+  </style>
 </head>
 
 <body>
   <hr>
   <div class="header">
-    <img class="Mayra" src="images/Mayra.jpg" height="180" width="180" alt="Mayra Escalante Profile Picture">
-    <a href="https://www.facebook.com/profile.php?id=100009171923217" target="_blank" rel="noopener noreferrer"><img src="images/blackfacebook.png" height="30" width="30" alt="Facebook"></a>
-    <a href="https://www.instagram.com/delreyurban/" target="_blank" rel="noopener noreferrer"><img src="images/blackinsta.png" height="30" width="30" alt="Instagram"></a>
-    <a href="https://x.com" target="_blank" rel="noopener noreferrer"><img src="images/blacktweeter.png" height="30" width="30" alt="X/Twitter"></a>
-    <a href="https://www.linkedin.com/company/del-rey-urban/" target="_blank" rel="noopener noreferrer"><img src="images/inkblack.png" height="30" width="30" alt="LinkedIn"></a>
+    <!-- Re-sized main profile photo down from 180 to 120 -->
+    <img class="Mayra" src="images/Mayra.jpg" height="120" width="120" alt="Mayra Escalante Profile Picture">
+    
+    <!-- Re-sized standard social navigation links down from 30 to 22 -->
+    <a href="https://www.facebook.com/profile.php?id=100009171923217" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/blackfacebook.png" height="22" width="22" alt="Facebook"></a>
+    <a href="https://www.instagram.com/delreyurban/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/blackinsta.png" height="22" width="22" alt="Instagram"></a>
+    <a href="https://x.com" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/blacktweeter.png" height="22" width="22" alt="X/Twitter"></a>
+    <a href="https://www.linkedin.com/company/del-rey-urban/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/inkblack.png" height="22" width="22" alt="LinkedIn"></a>
 
     <div class="title">
       <h2>Real Estate by Mayra Escalante</h2>
@@ -75,7 +95,7 @@
   <div class="last-container">
     <p class="credits">Photo credits:</p>
     <a class="footer-link" href="https://www.realtor.com/news/real-estate-news/11-homes-best-beach-towns-america/" target="_blank" rel="noopener noreferrer">Realtor.com</a>
-    <a class="footer-link" href="https://www.inc.com/minda-zetlin/ergonomics-home-office-work-at-home-setup-spinal-back-health.html" target="_blank" rel="noopener noreferrer">Inc.com</a>
+    <a class="footer-link" href="https://inc.com" target="_blank" rel="noopener noreferrer">Inc.com</a>
     <a class="footer-link" href="https://www.etsy.com/listing/654894869/wood-name-sign-home-sweet-home-sign-home?ref=reviews" target="_blank" rel="noopener noreferrer">Etsy.com</a>
     <a class="footer-link" href="https://www.redfin.com/" target="_blank" rel="noopener noreferrer">Redfin.com</a>
 
