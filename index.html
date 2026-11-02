@@ -1,107 +1,247 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Golf Accessories</title>
 
-  <title>Homes-by-Mayra</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/Mayra.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://redfin.com" crossorigin>
-  <link href="https://googleapis.com" rel="stylesheet">
-  
-  <style>
-    /* Prevent images from breaking layout on smaller screens */
-    .Mayra {
-      border-radius: 50%; /* Makes the profile photo a clean circle */
-      object-fit: cover;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    }
-    
-    .social-icon {
-      transition: transform 0.2s ease;
-    }
-    
-    .social-icon:hover {
-      transform: scale(1.15); /* Adds a crisp zoom effect on hover */
-    }
-  </style>
-</head>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<body>
-  <hr>
-  <div class="header">
-    <!-- Re-sized main profile photo down from 180 to 120 -->
-    <img class="Mayra" src="images/Mayra.jpg" height="120" width="120" alt="Mayra Escalante Profile Picture">
-    
-    <!-- Re-sized standard social navigation links down from 30 to 22 -->
-    <a href="https://www.facebook.com/profile.php?id=100009171923217" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/blackfacebook.png" height="22" width="22" alt="Facebook"></a>
-    <a href="https://www.instagram.com/delreyurban/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/blackinsta.png" height="22" width="22" alt="Instagram"></a>
-    <a href="https://x.com" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/blacktweeter.png" height="22" width="22" alt="X/Twitter"></a>
-    <a href="https://www.linkedin.com/company/del-rey-urban/" target="_blank" rel="noopener noreferrer"><img class="social-icon" src="images/inkblack.png" height="22" width="22" alt="LinkedIn"></a>
+<style>
 
-    <div class="title">
-      <h2>Real Estate by Mayra Escalante</h2>
-      <h2>Welcome to my page.</h2>
-      <a class="btn1" href="https://www.delreyurban.com/agents/1088112/Mayra+Escalante" target="_blank" rel="noopener noreferrer">About Me</a>
-      <a class="btn" href="mailto:mayra@drubrokerage.com">CONTACT ME</a>
-    </div>
-  </div>
-  <hr>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
 
-  <div class="top-container">
-    <h2 class="text5">REAL ESTATE<br>WITH REAL RESULTS.</h2>
-  </div>
-  <hr>
-  
-  <div class="medio-container">
-    <div class="banner3">
-      <h3 class="text3">My Commitment:<br><br>My main goal is to help you with all your real estate needs.<br>
-        Whether you are looking to rent, sell, or buy a property,<br>
-        I will make sure you get the best deal in this everyday changing real estate market.<br>
-        Let's make your dream of home ownership a reality.<br>
-        Get in touch and let's evaluate all available options.<br>
-      </h3>
-    </div>
-  </div>
+html{
+    scroll-behavior:smooth;
+}
 
-  <hr>
+body{
+    background:#f4f4f4;
+    color:#333;
+}
 
-  <div class="bottom-container">
-    <h2 class="word">Word from my clients.</h2>
-    <div class="banner">
-      <div class="banner2">
-        <h3 class="text2">
-          "We called Mayra to help us put our home on the market, it was sold within two weeks.<br>
-          Which was enough for us to find a new home. Mayra's professionalism and attention to <br>
-          detail was excellent, thank you very much Mayra!"<br>
-          — De la Cruz Family
-        </h3>
+/* HEADER */
 
-        <h3 class="text1">
-          "After a while searching for the right person to help us<br>
-          in the process to find the perfect home, we are glad we found Mayra.<br>
-          She was really patient and professional; she never rushed us in the process.<br>
-          We highly recommend her real estate expertise."<br>
-          — The Verduzco Family
-        </h3>
-      </div>
-    </div>
-  </div>
-  
+header{
+    background:#0a5c2f;
+    color:white;
+    padding:20px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
 
-  <div class="last-container">
-    <p class="credits">Photo credits:</p>
-    <a class="footer-link" href="https://www.realtor.com/news/real-estate-news/11-homes-best-beach-towns-america/" target="_blank" rel="noopener noreferrer">Realtor.com</a>
-    <a class="footer-link" href="https://inc.com" target="_blank" rel="noopener noreferrer">Inc.com</a>
-    <a class="footer-link" href="https://www.etsy.com/listing/654894869/wood-name-sign-home-sweet-home-sign-home?ref=reviews" target="_blank" rel="noopener noreferrer">Etsy.com</a>
-    <a class="footer-link" href="https://www.redfin.com/" target="_blank" rel="noopener noreferrer">Redfin.com</a>
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
 
-    <p class="Copyright">© <ActionDropdown variant="calendar" date="2026-11-01" query="Add portfolio publication deadline to calendar">2026</ActionDropdown> Antonio Escalante maep1212@gmail.com</p>
-  </div>
-  <hr>
-</body>
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
 
-</html>
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    text-decoration:underline;
+}
+
+.search-container{
+    text-align:center;
+    margin-top:15px;
+}
+
+.search-container input{
+    width:300px;
+    max-width:90%;
+    padding:10px;
+    border:none;
+    border-radius:25px;
+}
+
+/* HERO */
+
+.hero{
+    background:
+    linear-gradient(
+        rgba(0,0,0,.45),
+        rgba(0,0,0,.45)
+    ),
+    url('https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1600&q=80');
+
+    background-size:cover;
+    background-position:center;
+    height:550px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero-content{
+    color:white;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:3.5rem;
+}
+
+.hero-content p{
+    margin-top:15px;
+    font-size:1.2rem;
+}
+
+.shop-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:#ffd700;
+    color:black;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.shop-btn:hover{
+    background:#e8c400;
+}
+
+/* ABOUT */
+
+.about{
+    background:white;
+    padding:60px 8%;
+    text-align:center;
+}
+
+.about h2{
+    color:#0a5c2f;
+    margin-bottom:20px;
+}
+
+/* BENEFITS */
+
+.benefits{
+    background:#eef7ef;
+    padding:60px 8%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    text-align:center;
+}
+
+.benefits i{
+    font-size:40px;
+    color:#0a5c2f;
+    margin-bottom:15px;
+}
+
+/* PRODUCTS */
+
+.products{
+    padding:60px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0a5c2f;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.product-card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+}
+
+.product-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.product-info{
+    padding:15px;
+}
+
+.product-info h3{
+    margin-bottom:10px;
+}
+
+.rating{
+    color:#ffb400;
+    margin-bottom:10px;
+}
+
+.price{
+    color:#0a5c2f;
+    font-size:20px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.buy-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#0a5c2f;
+    color:white;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.buy-btn:hover{
+    background:#084521;
+}
+
+/* CART */
+
+.cart-section{
+    width:90%;
+    max-width:800px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,.15);
+}
+
+.cart-section h2{
+    color:#0a5c2f;
+    margin-bottom:20px;
+}
+
+.cart-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px
