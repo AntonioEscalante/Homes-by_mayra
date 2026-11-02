@@ -3,245 +3,181 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elite Golf Accessories</title>
+<title>Real Estate by Mayra Escalante</title>
 
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
-}
-
-html{
-    scroll-behavior:smooth;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background:#f4f4f4;
-    color:#333;
+    background:#fff;
 }
 
 /* HEADER */
-
-header{
-    background:#0a5c2f;
-    color:white;
+.header{
+    background:#d6e2e8;
     padding:20px;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-.navbar{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-wrap:wrap;
-}
-
-.logo{
-    font-size:28px;
-    font-weight:bold;
-}
-
-.nav-links a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    font-weight:bold;
-}
-
-.nav-links a:hover{
-    text-decoration:underline;
-}
-
-.search-container{
-    text-align:center;
-    margin-top:15px;
-}
-
-.search-container input{
-    width:300px;
-    max-width:90%;
-    padding:10px;
-    border:none;
-    border-radius:25px;
-}
-
-/* HERO */
-
-.hero{
-    background:
-    linear-gradient(
-        rgba(0,0,0,.45),
-        rgba(0,0,0,.45)
-    ),
-    url('https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1600&q=80');
-
-    background-size:cover;
-    background-position:center;
-    height:550px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    position:relative;
     text-align:center;
 }
 
-.hero-content{
-    color:white;
-    padding:20px;
-}
-
-.hero-content h1{
-    font-size:3.5rem;
-}
-
-.hero-content p{
-    margin-top:15px;
-    font-size:1.2rem;
-}
-
-.shop-btn{
-    display:inline-block;
-    margin-top:25px;
-    padding:12px 30px;
-    background:#ffd700;
-    color:black;
-    text-decoration:none;
-    border-radius:6px;
-    font-weight:bold;
-}
-
-.shop-btn:hover{
-    background:#e8c400;
-}
-
-/* ABOUT */
-
-.about{
-    background:white;
-    padding:60px 8%;
-    text-align:center;
-}
-
-.about h2{
-    color:#0a5c2f;
-    margin-bottom:20px;
-}
-
-/* BENEFITS */
-
-.benefits{
-    background:#eef7ef;
-    padding:60px 8%;
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:30px;
-    text-align:center;
-}
-
-.benefits i{
-    font-size:40px;
-    color:#0a5c2f;
-    margin-bottom:15px;
-}
-
-/* PRODUCTS */
-
-.products{
-    padding:60px 8%;
-}
-
-.section-title{
-    text-align:center;
-    margin-bottom:40px;
-    color:#0a5c2f;
-}
-
-.product-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.product-card{
-    background:white;
-    border-radius:10px;
+.profile-card{
+    position:absolute;
+    left:20px;
+    top:15px;
+    width:140px;
+    height:140px;
+    border-radius:50%;
     overflow:hidden;
-    box-shadow:0 3px 10px rgba(0,0,0,.15);
-    transition:.3s;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
 }
 
-.product-card:hover{
-    transform:translateY(-8px);
-}
-
-.product-card img{
+.profile-card img{
     width:100%;
-    height:230px;
+    height:100%;
     object-fit:cover;
 }
 
-.product-info{
-    padding:15px;
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-bottom:25px;
 }
 
-.product-info h3{
-    margin-bottom:10px;
+.social-icons a{
+    color:black;
+    font-size:30px;
+    transition:.3s;
 }
 
-.rating{
-    color:#ffb400;
-    margin-bottom:10px;
+.social-icons a:hover{
+    transform:scale(1.1);
 }
 
-.price{
-    color:#0a5c2f;
+.header h1{
+    font-size:28px;
+    margin-bottom:30px;
+}
+
+.header h2{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.about-btn{
+    background:black;
+    color:white;
+    text-decoration:none;
+    padding:8px 25px;
+    border-radius:10px;
+    font-size:18px;
+    display:inline-block;
+}
+
+.contact-btn{
+    position:absolute;
+    right:70px;
+    top:115px;
+    background:black;
+    color:white;
+    padding:18px 25px;
+    text-decoration:none;
+    border-radius:12px;
     font-size:20px;
     font-weight:bold;
-    margin:10px 0;
 }
 
-.buy-btn{
-    width:100%;
-    padding:12px;
-    border:none;
-    background:#0a5c2f;
+/* HERO SECTION */
+.hero{
+    height:700px;
+    background:url('house.jpg') center center/cover no-repeat;
+    position:relative;
+}
+
+.overlay-text{
+    position:absolute;
+    bottom:40px;
+    left:40px;
     color:white;
-    font-weight:bold;
-    border-radius:5px;
-    cursor:pointer;
 }
 
-.buy-btn:hover{
-    background:#084521;
+.overlay-text h2{
+    font-size:60px;
+    font-weight:900;
+    line-height:1.1;
 }
 
-/* CART */
+/* RESPONSIVE */
+@media(max-width:900px){
 
-.cart-section{
-    width:90%;
-    max-width:800px;
-    margin:40px auto;
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 5px 10px rgba(0,0,0,.15);
+    .profile-card{
+        position:static;
+        margin:0 auto 20px;
+    }
+
+    .contact-btn{
+        position:static;
+        display:inline-block;
+        margin-top:20px;
+    }
+
+    .social-icons{
+        gap:25px;
+    }
+
+    .overlay-text h2{
+        font-size:38px;
+    }
+
+    .hero{
+        height:500px;
+    }
 }
+</style>
+</head>
 
-.cart-section h2{
-    color:#0a5c2f;
-    margin-bottom:20px;
-}
+<body>
 
-.cart-item{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px
+<header class="header">
+
+    <div class="profile-card">
+        <img src="profile.jpg" alt="Mayra Escalante">
+    </div>
+
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <h1>Real Estate by Mayra Escalante</h1>
+
+    <h2>Welcome to my page.</h2>
+
+    <a href="#about" class="about-btn">About Me</a>
+
+    <a href="#contact" class="contact-btn">CONTACT ME</a>
+
+</header>
+
+<section class="hero">
+
+    <div class="overlay-text">
+        <h2>
+            REAL ESTATE<br>
+            WITH REAL RESULTS.
+        </h2>
+    </div>
+
+</section>
+
+</body>
+</html>
